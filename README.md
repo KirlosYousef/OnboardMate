@@ -89,7 +89,7 @@ Feel free to reach out to me at:
 
 ## License
 
-OnboardMate is available under the MIT License. See the LICENSE file for more info.
+OnboardMate is available under the MIT License. See the [LICENSE.md](LICENSE.md) file for more info.
 
 ---
 
