@@ -2,6 +2,11 @@
 
 Your simple and lightweight SwiftUI library mate for creating beautiful onboarding screens with smooth animations and full customization options.
 
+A real example from [RaceMe!](https://apps.apple.com/us/app/id1514432749) App:
+
+![Onboarding animation](https://i.imgur.com/HZHfLv4.gif)
+![Onboarding animation](https://i.imgur.com/XowgD2p.gif)
+
 ## Features
 - Smooth animations
 - Full customization for each screen
