@@ -82,8 +82,8 @@ dependencies: [
 ```
 
 ## Requirements
-- iOS 16+
-- Xcode 14+
+- iOS 14+
+- Xcode 12+
 
 ## Support
 
