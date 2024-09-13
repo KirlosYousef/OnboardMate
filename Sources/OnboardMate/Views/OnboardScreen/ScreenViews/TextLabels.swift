@@ -17,8 +17,8 @@ internal struct TextLabels: View {
             if let primaryText {
                 Text(primaryText)
                     .font(.title2)
-                    .bold()
-                    .foregroundStyle(Color(.label))
+                    .fontWeight(.bold)
+                    .foregroundColor(Color(.label))
             }
             
             Spacer()

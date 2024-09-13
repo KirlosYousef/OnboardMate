@@ -23,7 +23,7 @@ internal struct ActionButton: View {
                 .padding()
                 .background(
                     RoundedRectangle(cornerRadius: 12)
-                        .foregroundStyle(actionButtonColor)
+                        .foregroundColor(actionButtonColor)
                 )
                 .padding()
                 .frame(height: 48)

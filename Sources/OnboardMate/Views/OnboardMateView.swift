@@ -39,7 +39,7 @@ public struct OnboardMateView: View {
         }
         .tabViewStyle(PageTabViewStyle())
         .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
-        .foregroundStyle(Color(.systemBackground))
+        .foregroundColor(Color(.systemBackground))
         .animation(.easeInOut, value: currentScreen)
         .transition(.slide)
     }

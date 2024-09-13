@@ -21,7 +21,7 @@ internal struct NextScreenButton: View {
                 .padding()
                 .background(
                     Circle()
-                        .foregroundStyle(color)
+                        .foregroundColor(color)
                 )
                 .padding()
                 .frame(width: 48, height: 48)
