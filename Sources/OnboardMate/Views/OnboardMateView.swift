@@ -10,12 +10,19 @@ import SwiftUI
 public struct OnboardMateView: View {
     var screensList: [OnboardScreen]
     var nextButtonColor: Color?
+    var sliderColor: Color
     
     @State private var currentScreen = 0
     
-    public init(screensList: [OnboardScreen], nextButtonColor: Color? = nil) {
+    public init(screensList: [OnboardScreen],
+                nextButtonColor: Color? = nil, 
+                sliderColor: Color = .black) {
         self.screensList = screensList
         self.nextButtonColor = nextButtonColor
+        self.sliderColor = sliderColor
+        
+        UIPageControl.appearance().currentPageIndicatorTintColor = UIColor(sliderColor)
+        UIPageControl.appearance().pageIndicatorTintColor = UIColor.label.withAlphaComponent(0.2)
     }
     
     public var body: some View {

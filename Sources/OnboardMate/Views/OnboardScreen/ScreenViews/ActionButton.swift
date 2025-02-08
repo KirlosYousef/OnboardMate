@@ -28,5 +28,6 @@ internal struct ActionButton: View {
                 .padding()
                 .frame(height: 48)
         })
+        .padding(.bottom, 8)
     }
 }
